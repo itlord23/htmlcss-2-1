@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Phần Common */
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 46px;
+    min-width: 186px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    text-align: center;
+    color: #fff;
+    background-color: #1EBFC1;
+    border-radius: 14px;
+}
+
+/* Phần Header */
+.header {
+    background-color: #fff;
+}
+
+.header .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 0 0;
+}
+
+.header .nav {}
+
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    padding: 8px 30px;
+    font-size: 1.6rem;
+    color: #2F3A3B;
+}
+
+.nav a:hover,
+.nav .item.active a {
+    text-shadow: 1px 0 currentColor;
+    color: #2F3A3B;
+}
+
+.actions .register {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #494949;
+}
+
+.actions .sign-up {
+    padding: 16px;
+    margin-left: 24px;
+    display: inline-block;
+    min-width: 108px;
+    border: 1px #1EBFC1 solid;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #1EBFC1;
+    background-color: #fff;
+    border-radius: 6px;
+}
