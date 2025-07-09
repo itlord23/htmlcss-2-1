@@ -35,6 +35,30 @@ a {
     border-radius: 14px;
 }
 
+
+.heading {
+    margin-top: 16px;
+    font-weight: 700;
+    color: #0D1111;
+}
+
+.heading.lv1 {
+    font-size: 6.2rem;
+    line-height: 1.16;
+}
+
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.333;
+}
+
+.label {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767E7E;
+    letter-spacing: 6px;
+}
+
 /* Phần Header */
 .header {
     background-color: #fff;
@@ -110,14 +134,6 @@ a {
     font-weight: 400;
     font-size: 1.4rem;
     color: #767E7E;
-}
-
-.hero .content-block .heading {
-    margin-top: 16px;
-    font-weight: 700;
-    font-size: 6.2rem;
-    line-height: 1.16;
-    color: #0D1111;
 }
 
 .hero .content-block .desc {
@@ -249,3 +265,71 @@ a {
 .avatar-block .avatar:first-child {
     margin-left: 0;
 }
+
+/* Phần Features */
+.features {
+    margin-top: 130px;
+}
+
+.features .body {
+    width: 88%;
+    margin-right: auto;
+}
+
+.features .heading {
+    margin-top: 18px;
+    width: 577px;
+}
+
+.features .desc {
+    margin-top: 18px;
+    width: 590px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #767E7E;
+}
+
+.features .row {
+    margin-top: 80px;
+    display: flex;
+}
+
+.features .row .column:nth-child(1) {
+    width: 37%;
+}
+
+.features .row .column:nth-child(2) {
+    width: 41%;
+}
+
+.features .row .column:nth-child(3) {
+    width: 22%;
+}
+
+.features .icon-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 106px;
+    border-radius: 18px;
+    background-color: var(--bg-color);
+}
+
+.features .row .column .title {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0D1111;
+}
+
+.features .row .column .content {
+    margin-top: 16px;
+    width: 168px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #9DA6A5;
+}
+
+/* Phần Popular */
