@@ -11,6 +11,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+:root {
+    --primary-color: #1EBFC1;
+}
+
 /* Phần Common */
 .main-content {
     width: 1170px;
@@ -31,23 +35,23 @@ a {
     line-height: 3.6;
     text-align: center;
     color: #fff;
-    background-color: #1EBFC1;
+    background-color: var(--primary-color);
     border-radius: 14px;
 }
 
-
 .heading {
-    margin-top: 16px;
     font-weight: 700;
     color: #0D1111;
 }
 
 .heading.lv1 {
+    margin-top: 16px;
     font-size: 6.2rem;
     line-height: 1.16;
 }
 
 .heading.lv2 {
+    margin-top: 18px;
     font-size: 4.2rem;
     line-height: 1.333;
 }
@@ -113,11 +117,11 @@ a {
     margin-left: 24px;
     display: inline-block;
     min-width: 108px;
-    border: 1px #1EBFC1 solid;
+    border: 1px var(--primary-color) solid;
     font-weight: 600;
     font-size: 1.6rem;
     text-align: center;
-    color: #1EBFC1;
+    color: var(--primary-color);
     background-color: #fff;
     border-radius: 6px;
 }
@@ -152,12 +156,12 @@ a {
     color: #9DA6A5;
 }
 
-.hero .cta {
+.hero .cta-block {
     display: flex;
     margin-top: 50px;
 }
 
-.hero .cta .icon {
+.hero .cta-block .icon {
     margin-left: 48px;
     display: flex;
     justify-content: center;
@@ -284,7 +288,6 @@ a {
 }
 
 .features .heading {
-    margin-top: 18px;
     width: 577px;
 }
 
@@ -293,6 +296,7 @@ a {
     width: 590px;
     font-weight: 400;
     font-size: 1.8rem;
+    line-height: 1.778;
     color: #767E7E;
 }
 
@@ -344,10 +348,6 @@ a {
     margin-top: 130px;
 }
 
-.popular .heading {
-    margin-top: 18px;
-}
-
 .popular .desc-block {
     margin-top: 19px;
     display: flex;
@@ -366,7 +366,7 @@ a {
 .popular .desc-block .link {
     font-weight: 700;
     font-size: 14px;
-    color: #1EBFC1;
+    color: var(--primary-color);
     text-decoration: underline;
     text-decoration-style: solid;
 }
@@ -450,9 +450,127 @@ a {
     height: 6px;
     margin-right: 10px;
     border-radius: 50%;
-    background: #1EBFC1;
+    background: var(--primary-color);
 }
 
 .popular .column .info span:nth-child(2) {
     margin-left: 10px;
+}
+
+/* Phần Countdown */
+.countdown {
+    margin-top: 265px;
+}
+
+.countdown .body {
+    width: 862px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countdown .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.countdown .column .stat-number {
+    font-weight: 700;
+    font-size: 6.2rem;
+    text-align: center;
+    color: #0D1111;
+}
+
+.countdown .column .desc {
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #767E7E;
+}
+
+/* Phần Testimonial */
+.testimonial {
+    margin-top: 265px;
+}
+
+.testimonial .body {
+    display: flex;
+    gap: 72px;
+}
+
+.testimonial .content-block {
+    margin-top: 37px;
+}
+
+.testimonial .content-block blockquote {
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5D6564;
+}
+
+.testimonial .content-block .info {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 33px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #767E7E;
+}
+
+.testimonial .content-block .info b {
+    font-weight: 500;
+    color: #070707;
+}
+
+.testimonial .content-block .info::before {
+    margin-right: 5px;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.testimonial .controls {
+    margin-top: 52px;
+    display: flex;
+    gap: 30px;
+}
+
+.testimonial .control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    background: #2AC9BF;
+}
+
+/* Phần CTA */
+.cta {
+    margin-top: 130px;
+    background-color: #DEF6F5;
+}
+
+.cta .body {
+    display: flex;
+    align-items: center;
+    gap: 410px;
+    padding: 76px 0 86px;
+}
+
+.cta .heading {
+    margin-top: 0;
+}
+
+.cta .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #767E7E;
 }
