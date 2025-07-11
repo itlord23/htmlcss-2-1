@@ -513,6 +513,7 @@ a {
 .testimonial .content-block .info {
     display: inline-flex;
     align-items: center;
+    gap: 5px;
     margin-top: 33px;
     font-weight: 400;
     font-size: 1.6rem;
@@ -525,7 +526,6 @@ a {
 }
 
 .testimonial .content-block .info::before {
-    margin-right: 5px;
     content: "";
     display: inline-block;
     width: 8px;
@@ -573,4 +573,51 @@ a {
     font-weight: 400;
     font-size: 18px;
     color: #767E7E;
+}
+
+/* Phần Footer */
+.footer {
+    padding: 131px 137px 0;
+}
+
+.footer .row {
+    display: flex;
+    gap: 144px;
+}
+
+.footer .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #2E2E2E;
+}
+
+.footer .list {
+    margin-top: 26px;
+}
+
+.footer .list a {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #535353;
+}
+
+.footer .list img {
+    margin-right: 9px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer .copyright {
+    padding: 80px 0 50px;
+}
+
+.footer .copyright p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #B0B5B4;
+    text-align: center;
 }
