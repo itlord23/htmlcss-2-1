@@ -15,6 +15,11 @@ body {
     --primary-color: #1EBFC1;
 }
 
+/* 
+    1. Sửa phần body sản phẩm của .popular để nó không tràn ra
+    2. Nghiên cứu làm phần ảnh của .testimonial
+*/
+
 /* Phần Common */
 .main-content {
     width: 1170px;
