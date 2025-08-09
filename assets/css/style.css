@@ -656,6 +656,7 @@ a {
 
 .footer li:hover a {
     text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 .footer .list a {
